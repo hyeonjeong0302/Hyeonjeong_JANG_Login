@@ -17,28 +17,19 @@ body {
 }
 
 .wrap {
-  width: 700px;
+  width:350px;
   height: 300px;
   margin: 0 auto;
   margin-top: 300px;
-  display: flex;
 }
 
-.wrap div {
-
-  width: 350px;
-  border: 1px solid #e6e6e6;
+.wrap .logout{
+  background-color:#f9ad7e;
+    border: 1px solid #e6e6e6;
   line-height: 300px;
   text-align: center;
   font-size: 50px;
 }
-.wrap div:hover{
+.wrap .logout:hover{
   font-weight: bold;
-}
-.wrap .login{
-  background-color:#f9ad7e;
-  margin-right: 20px;
-}
-.wrap .join{
-  background-color: #b8f1c3;
 }

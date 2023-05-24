@@ -95,5 +95,5 @@ function color() {
 
 // 로그인 후 메인 화면으로 가는 기능
 function moveToMain() {
-  location.replace("./index.html");
+  location.replace("./logout.html");
 }
