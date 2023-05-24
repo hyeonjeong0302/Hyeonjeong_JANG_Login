@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 - 로그인 화면 구현</title>
+    <script src="./js/login.js" defer></script>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div class="login_ex">
+        <div class="login">
+            <h1>로그인</h1>
+            <form class="login_form">
+                <label class="title" for="login_email">이메일 주소</label>
+                <input id="login_email" class="login_text" type="text" name="id" placeholder=" 이메일 주소를 입력해 주세요.   ex) green@gmail.com">
+                <label class="title" for="login_pw">비밀번호</label>
+                <input id="login_pw" class="login_text" type="password" name="id" placeholder=" 비밀번호를 입력해 주세요. (4자 이상)">
+                <input type="checkbox" id="id_save">
+                <label for="id_save">아이디 저장</label>
+                <div class="basic_login">
+                    <button id="login_btn" class="login_btn" type="button" disabled>로그인</button>
+                    <div class="join_btn"><a href="./terms.html">회원가입</a></div>
+                    <div class="non_members_btn"><a href="#">비회원 주문조회</a></div>
+                </div>
+                <div class="find">
+                    <a class="find_id" href="#">아이디 찾기</a>
+                    <a class="find_pw" href="#">비밀번호 찾기</a>
+
+                </div>
+                <div class="easy_login">
+                    <div class="naver_easy"><a href="#"><img src="./images/naver-login-logo.png" alt="naver"> 네이버
+                            로그인</a></div>
+                    <div class="kakao_easy"><a href="#"><img src="./images/kakao-login-logo.png" alt="kakao"> 카카오
+                            로그인</a></div>
+                    <div class="google_easy"><a href="#"><img src="./images/google-login-logo.png" alt="google"> 구글
+                            로그인</a></div>
+                </div>
+                <!--easy_login-->
+            </form>
+        </div>
+        <!--login-->
+        <div class="login_info">
+            <h3>이메일주소</h3>
+            <p>green@gmail.com</p>
+            <p>green@naver.com</p>
+            <p>green@hanmail.net</p>
+            <br>
+            <h3>비밀번호(모두 동일)</h3>
+            <p>green1234</p>
+        </div>
+    </div>
+</body>
+
+</html>

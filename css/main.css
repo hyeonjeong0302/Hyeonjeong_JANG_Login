@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.wrap {
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 500px;
+  display: flex;
+}
+
+.wrap div {
+
+  width: 350px;
+  border: 1px solid #e6e6e6;
+  line-height: 300px;
+  text-align: center;
+  font-size: 50px;
+}
+.wrap .login{
+  background-color:#f9ad7e;
+  margin-right: 20px;
+}
+.wrap .join{
+  background-color: #b8f1c3;
+}
