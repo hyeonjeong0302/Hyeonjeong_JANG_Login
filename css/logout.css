@@ -17,8 +17,8 @@ body {
 }
 
 .wrap {
-  width:350px;
-  height: 300px;
+  width:230px;
+  height: 250px;
   margin: 0 auto;
   margin-top: 300px;
 }
@@ -26,9 +26,9 @@ body {
 .wrap .logout{
   background-color:#f9ad7e;
     border: 1px solid #e6e6e6;
-  line-height: 300px;
+  line-height: 250px;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
 }
 .wrap .logout:hover{
   font-weight: bold;

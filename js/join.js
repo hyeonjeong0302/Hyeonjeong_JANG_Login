@@ -17,14 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
   telSecond.addEventListener("keyup", moveTel);
   joinBtn.addEventListener("click", validationChk);
 
-  /*        function checkId() {
-
-               if (userId.value.length < 5 || userId.value.length > 16) {
-                 alert('사용할 수 없는 아이디입니다. 5~16자로 입력해 주세요.')
-                 userId.value = ''
-                 userId.focus()
-               }
-             } //checkId() */
   // email_start
   const domainListEl = document.querySelector("#domain-list");
   const domainInputEl = document.querySelector("#domain-txt");
@@ -42,8 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function validationChk() {
     // 이메일 유효성 검사
-    //TODO 직접입력 유효성 검사 . 이후 알파벳 추가
-    let idChk = /^[A-Za-z0-9_\.\-]/;
+      let idChk = /^[A-Za-z0-9_\.\-]/;
     let domainChk = /^[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
 
     if (userEmail.value == "") {
@@ -144,7 +135,6 @@ document.addEventListener("DOMContentLoaded", () => {
       userPw2.value = "";
     } else {
       alert("사용 가능한 비밀번호입니다.");
-      // TODO : 비밀번호 확인을 한 후 수정 불가하게 disable
     }
   } //comparePw()
   // password_end

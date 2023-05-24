@@ -17,8 +17,8 @@ body {
 }
 
 .wrap {
-  width: 700px;
-  height: 300px;
+  width: 460px;
+  height: 250px;
   margin: 0 auto;
   margin-top: 300px;
   display: flex;
@@ -26,11 +26,11 @@ body {
 
 .wrap div {
 
-  width: 350px;
+  width: 230px;
   border: 1px solid #e6e6e6;
-  line-height: 300px;
+  line-height: 250px;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
 }
 .wrap div:hover{
   font-weight: bold;
