@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         termsEl.checked = false;
       });
     }
-  } //totalCheck()
+  }
 
   function termsCheck() {
     if (terms01.checked && terms02.checked) {
@@ -33,15 +33,15 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-function fregister_submit(f) {
-    if (terms_01.checked === false ) {
-        alert("이용약관에 동의해야 회원가입 하실 수 있습니다.");
-        event.preventDefault();
+  function fregister_submit(f) {
+    if (terms_01.checked === false) {
+      alert("이용약관에 동의해야 회원가입 하실 수 있습니다.");
+      event.preventDefault();
     }
 
     if (terms_02.checked === false) {
-        alert("개인정보 수집 및 이용에 동의해야 회원가입 하실 수 있습니다.");
-        event.preventDefault();
+      alert("개인정보 수집 및 이용에 동의해야 회원가입 하실 수 있습니다.");
+      event.preventDefault();
     }
 
   }

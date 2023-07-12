@@ -6,14 +6,10 @@ loginId.addEventListener("keyup", color);
 loginPw.addEventListener("keyup", color);
 loginBtn.addEventListener("click", validationChk);
 
-// 유효성 검사
-// 1. ID에 Email 유효성 검사 넣기
-// 2. PW가 5글자 이상
 function validationChk() {
   let id = document.getElementById("login_email");
   let pw = document.getElementById("login_pw");
 
-  // 이메일 유효성 검사
   let idChk = /^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
 
   if (id.value == "") {
@@ -65,7 +61,6 @@ function color() {
   }
 }
 
-// 로그인 후 메인 화면으로 가는 기능
 function moveToMain() {
   location.replace("./logout.html");
 }
